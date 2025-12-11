@@ -167,6 +167,8 @@ fun Blockchain.Companion.fromNetworkId(networkId: String): Blockchain? {
         "pepecoin/test" -> Blockchain.PepecoinTestnet
         "hyperevm" -> Blockchain.Hyperliquid
         "hyperevm/test" -> Blockchain.HyperliquidTestnet
+        "monad" -> Blockchain.Monad
+        "monad/test" -> Blockchain.MonadTestnet
         "quai-network" -> Blockchain.Quai
         "quai-network/test" -> Blockchain.QuaiTestnet
         // "linea" -> Blockchain.Linea
@@ -336,8 +338,12 @@ fun Blockchain.toNetworkId(): String {
         Blockchain.PepecoinTestnet -> "pepecoin/test"
         Blockchain.Hyperliquid -> "hyperevm"
         Blockchain.HyperliquidTestnet -> "hyperevm/test"
+        Blockchain.Monad -> "monad"
+        Blockchain.MonadTestnet -> "monad/test"
         Blockchain.Quai -> "quai-network"
         Blockchain.QuaiTestnet -> "quai-network/test"
+        // Blockchain.Monad -> "monad"
+        // Blockchain.MonadTestnet -> "monad/test"
         // Blockchain.Linea -> "linea"
         // Blockchain.LineaTestnet -> "linea/test"
         // Blockchain.ArbitrumNova -> "arbitrum-nova"
@@ -445,6 +451,7 @@ fun Blockchain.toCoinId(): String {
         Blockchain.ZkLinkNova, Blockchain.ZkLinkNovaTestnet -> "zklink-ethereum"
         Blockchain.Pepecoin, Blockchain.PepecoinTestnet -> "pepecoin-network"
         Blockchain.Hyperliquid, Blockchain.HyperliquidTestnet -> "hyperliquid"
+        Blockchain.Monad, Blockchain.MonadTestnet -> "monad"
         Blockchain.Quai, Blockchain.QuaiTestnet -> "quai-network"
         // Blockchain.Linea, Blockchain.LineaTestnet -> "linea-ethereum"
         // Blockchain.ArbitrumNova -> "arbitrum-nova-ethereum"

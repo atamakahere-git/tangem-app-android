@@ -9,6 +9,13 @@ pluginManagement {
     includeBuild("plugins/configuration")
 }
 
+// Include local blockchain-sdk-kotlin for development
+includeBuild("../blockchain-sdk-kotlin") {
+    dependencySubstitution {
+        substitute(module("com.tangem:blockchain")).using(project(":blockchain"))
+    }
+}
+
 val properties = java.util.Properties()
 val propertiesFile = File(rootDir.absolutePath, "local.properties")
 if (propertiesFile.exists()) {

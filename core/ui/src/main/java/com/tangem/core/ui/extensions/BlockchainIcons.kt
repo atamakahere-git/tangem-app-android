@@ -95,6 +95,7 @@ fun getActiveIconRes(blockchainId: String): Int {
         "vanar-chain", "vanar-chain/test" -> R.drawable.img_vanar_22
         "pepecoin", "pepecoin/test" -> R.drawable.img_pepecoin_22
         "hyperliquid", "hyperliquid/test" -> R.drawable.img_hyperliquid_22
+        "monad", "monad/test" -> R.drawable.img_hyperliquid_22
         "quai", "quai/test" -> R.drawable.img_quai_22
         "linea", "linea/test" -> R.drawable.img_linea_22
         "arbitrum-nova" -> R.drawable.img_arbitrum_nova_22
@@ -191,6 +192,7 @@ fun getActiveIconResByCoinId(coinId: String): Int {
         "vanar-chain", "vanar-chain/test" -> R.drawable.img_vanar_22
         "pepecoin-network", "pepecoin-network/test" -> R.drawable.img_pepecoin_22
         "hyperliquid", "hyperliquid/test" -> R.drawable.img_hyperliquid_22
+        "monad", "monad/test" -> R.drawable.img_hyperliquid_22
         "quai", "quai/test" -> R.drawable.img_quai_22
         "linea", "linea/test" -> R.drawable.img_linea_22
         "arbitrum-nova" -> R.drawable.img_arbitrum_nova_22
@@ -290,6 +292,7 @@ fun getGreyedOutIconRes(blockchainId: String): Int {
         "vanar-chain", "vanar-chain/test" -> R.drawable.ic_vanar_22
         "pepecoin", "pepecoin/test" -> R.drawable.ic_pepecoin_22
         "hyperliquid", "hyperliquid/test" -> R.drawable.ic_hyperliquid_22
+        "monad", "monad/test" -> R.drawable.ic_hyperliquid_22
         "quai", "quai/test" -> R.drawable.ic_quai_22
         "linea", "linea/test" -> R.drawable.ic_linea_22
         "arbitrum-nova" -> R.drawable.ic_arbitrum_nova_22
