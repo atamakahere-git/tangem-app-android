@@ -181,7 +181,8 @@ class NetworkFactory @Inject constructor(
 
     private fun getNetworkStandardType(blockchain: Blockchain): Network.StandardType {
         return when (blockchain) {
-            Blockchain.Ethereum, Blockchain.EthereumTestnet -> Network.StandardType.ERC20
+            Blockchain.Ethereum, Blockchain.EthereumTestnet
+                -> Network.StandardType.ERC20
             Blockchain.BSC, Blockchain.BSCTestnet -> Network.StandardType.BEP20
             Blockchain.Binance, Blockchain.BinanceTestnet -> Network.StandardType.BEP2
             Blockchain.Tron, Blockchain.TronTestnet -> Network.StandardType.TRC20
@@ -343,6 +344,7 @@ class NetworkFactory @Inject constructor(
             Blockchain.ZkLinkNova, Blockchain.ZkLinkNovaTestnet,
             Blockchain.Pepecoin, Blockchain.PepecoinTestnet,
             Blockchain.Hyperliquid, Blockchain.HyperliquidTestnet,
+            Blockchain.Monad, Blockchain.MonadTestnet,
             Blockchain.Quai, Blockchain.QuaiTestnet,
             // Blockchain.Linea, Blockchain.LineaTestnet,
             // Blockchain.ArbitrumNova,
