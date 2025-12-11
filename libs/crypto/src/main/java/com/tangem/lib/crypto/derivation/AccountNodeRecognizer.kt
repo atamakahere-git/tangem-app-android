@@ -84,6 +84,7 @@ class AccountNodeRecognizer(private val blockchain: Blockchain) {
             Blockchain.Litecoin,
             Blockchain.Stellar,
             Blockchain.Ethereum,
+            Blockchain.Monad,
             Blockchain.EthereumPow,
             Blockchain.Dischain,
             Blockchain.EthereumClassic,
@@ -167,6 +168,7 @@ class AccountNodeRecognizer(private val blockchain: Blockchain) {
             Blockchain.ZkLinkNova,
             Blockchain.Pepecoin,
             Blockchain.Hyperliquid,
+            Blockchain.Monad,
             Blockchain.Scroll,
             // Blockchain.Linea,
             // Blockchain.ArbitrumNova,
@@ -243,6 +245,7 @@ class AccountNodeRecognizer(private val blockchain: Blockchain) {
             Blockchain.ZkLinkNovaTestnet,
             Blockchain.PepecoinTestnet,
             Blockchain.HyperliquidTestnet,
+            Blockchain.MonadTestnet,
             Blockchain.QuaiTestnet,
             // Blockchain.LineaTestnet,
             -> false

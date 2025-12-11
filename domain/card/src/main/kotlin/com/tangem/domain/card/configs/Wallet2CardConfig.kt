@@ -210,6 +210,8 @@ data object Wallet2CardConfig : CardConfig {
             Blockchain.PepecoinTestnet -> EllipticCurve.Secp256k1
             Blockchain.Hyperliquid -> EllipticCurve.Secp256k1
             Blockchain.HyperliquidTestnet -> EllipticCurve.Secp256k1
+            Blockchain.Monad -> EllipticCurve.Secp256k1
+            Blockchain.MonadTestnet -> EllipticCurve.Secp256k1
             Blockchain.Quai -> EllipticCurve.Secp256k1
             Blockchain.QuaiTestnet -> EllipticCurve.Secp256k1
             // Blockchain.Linea -> EllipticCurve.Secp256k1
